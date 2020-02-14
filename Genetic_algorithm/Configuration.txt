@@ -1,0 +1,12 @@
+# configuration_file
+selection_type = 2; # 1 to 4
+mutation_type = 2; # 1 to 3
+preserved_high_positions = 4; 
+preserved_low_positions = 2;
+max_iters = 10000; # probably less
+max_valueless_iters = 1000;
+enough_function_value = 0.230319; # i believe that it good aproximation
+variability = 0.1;
+crossing_volume = 0.4;
+selection_coefficient = 0.3; # good value
+type_of_work = 1; # 1 - main, 2 - test
